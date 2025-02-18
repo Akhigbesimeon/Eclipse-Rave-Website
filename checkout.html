@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Eclipse Rave</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Add other head elements from your main page -->
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">
+            <img src="Black_and_Red_Vintage_Illustrative_Super_Boy_Street_Wear_Logo-removebg-preview.png" alt="logo">
+        </a>
+    </header>
+
+    <div class="checkout-container">
+        <div class="checkout-form">
+            <h2>Shipping Information</h2>
+            <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" id="fullName" placeholder="Enter your full name">
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label>Phone</label>
+                    <input type="tel" id="phone" placeholder="Enter your phone number">
+                </div>
+            </div>
+        </div>
+        
+        <div class="order-summary">
+            <h2>Order Summary</h2>
+            <div class="order-items">
+                <!-- Items will be dynamically inserted here -->
+            </div>
+            <div class="summary-total">
+                <h3>Total: <span id="checkout-total">RWF 0</span></h3>
+            </div>
+            <button class="place-order-btn">Place Order</button>
+        </div>
+    </div>
+
+    <script src="checkout.js"></script>
+</body>
+</html> 

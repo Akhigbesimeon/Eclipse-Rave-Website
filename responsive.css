@@ -1,0 +1,49 @@
+/* Responsive Styles */
+@media (max-width: 890px) {
+    header {
+        padding: 20px 3%;
+        transition: .4s;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-items {
+        display: none;
+    }
+    
+    #menu-icon {
+        display: block;
+    }
+    
+    .checkout-container.active {
+        grid-template-columns: 1fr;
+    }
+    
+    .cart-sidebar {
+        width: 100%;
+    }
+}
+
+@media (max-width: 630px) {
+    .main-text h1 {
+        font-size: 45px;
+        transition: .4s;
+    }
+    
+    .main-text p {
+        font-size: 14px;
+        transition: .4s;
+    }
+    
+    .main-btn {
+        padding: 10px 20px;
+        transition: .4s;
+    }
+}
+
+@media (max-width: 500px) {
+    .main-text h1 {
+        font-size: 35px;
+        transition: .4s;
+    }
+} 
